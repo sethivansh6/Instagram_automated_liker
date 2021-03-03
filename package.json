@@ -1,0 +1,15 @@
+{
+  "name": "instagram-automation",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vansh Sethi",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "puppeteer": "^8.0.0"
+  }
+}
