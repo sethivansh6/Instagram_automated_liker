@@ -19,7 +19,7 @@ async function call(noOfPost) {
     page.click("button[type='submit']"),
   ])
 
-  await page.type("input[placeholder='Search']", "abdevilliers17")
+  await page.type("input[placeholder='Search']", process.env.pageName)
   await page.waitForSelector("._01UL2 .fuqBx a", { visible: true })
   await Promise.all([
     page.waitForNavigation({ waitUntil: "networkidle2" }),
